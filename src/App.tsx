@@ -77,8 +77,11 @@ function App() {
         </div>
 
         {/* Footer */}
-        <div
-          className={`mt-12 border-4 ${theme.border} ${theme.cardBg} p-4 ${theme.shadow} flex justify-center items-center gap-2 font-bold uppercase text-xs tracking-wider transition-all duration-300 ${theme.text}`}
+        <a
+          href="https://x.com/disco_trooper"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`mt-12 border-4 ${theme.border} ${theme.cardBg} p-4 ${theme.shadow} flex justify-center items-center gap-2 font-bold uppercase text-xs tracking-wider transition-all duration-300 ${theme.text} cursor-pointer hover:opacity-80`}
         >
           <span>Made with</span>
           <span className="text-red-500 animate-pulse">♥</span>
@@ -90,7 +93,7 @@ function App() {
           >
             disco_trooper
           </span>
-        </div>
+        </a>
       </div>
     </div>
   );
