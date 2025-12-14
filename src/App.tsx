@@ -75,6 +75,22 @@ function App() {
             <AboutSection theme={theme} isDark={isDark} />
           </div>
         </div>
+
+        {/* Footer */}
+        <div
+          className={`mt-12 border-4 ${theme.border} ${theme.cardBg} p-4 ${theme.shadow} flex justify-center items-center gap-2 font-bold uppercase text-xs tracking-wider transition-all duration-300 ${theme.text}`}
+        >
+          <span>Made with</span>
+          <span className="text-red-500 animate-pulse">♥</span>
+          <span>by</span>
+          <span
+            className={`px-2 py-0.5 border-2 ${theme.border} ${
+              isDark ? "bg-white text-black" : "bg-black text-white"
+            }`}
+          >
+            disco_trooper
+          </span>
+        </div>
       </div>
     </div>
   );
