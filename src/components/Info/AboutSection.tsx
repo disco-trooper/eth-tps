@@ -24,7 +24,7 @@ export const AboutSection = ({ theme, isDark }: AboutSectionProps) => {
         <span className="bg-[#d8b4fe] px-1 border border-black text-black">
           consensus votes
         </span>{" "}
-        in their TPS. Ethereum usually doesn't.
+        in their TPS. Ethereum doesn't.
       </p>
       <p className={`font-bold text-sm leading-relaxed mb-4 ${theme.text}`}>
         If we count Ethereum's consensus layer activity (attestations), the
